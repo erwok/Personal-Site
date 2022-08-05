@@ -47,6 +47,18 @@ hr {
     /* padding: 10px 0; */
 }
 
+@media (max-width: 1200px) {
+    .ericface {
+        max-width: 35%;
+    }
+}
+
+@media (max-width: 600px) {
+    .ericface {
+        max-width: 50%;
+    }
+}
+
 .about-description-row {
     width: 50%;
     margin: 5.5% auto 5.5% auto;
