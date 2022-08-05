@@ -39,12 +39,25 @@ hr {
 }
 
 .ericface {
+    margin-top: 3%;
     height: auto;
     border-radius: 50%;
     max-width: 22%;
     float: left;
     margin-right: 30px;
     /* padding: 10px 0; */
+}
+
+@media (min-width: 1350px) {
+    .text-elem {
+        margin-left: 27%;
+    }
+}
+
+@media (max-width: 1350px) {
+    .ericface {
+        max-width: 30%;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -67,6 +80,13 @@ hr {
     font-size: 1rem;
     /* padding-bottom: 2%; */
 }
+
+/* .text {
+    position: relative;
+}
+.text-elem {
+    left: 0;
+} */
 
 .say-hi {
     padding-left: 25.35%;
