@@ -48,30 +48,6 @@ hr {
     /* padding: 10px 0; */
 }
 
-@media (min-width: 1350px) {
-    .text-elem {
-        margin-left: 27%;
-    }
-}
-
-@media (max-width: 1350px) {
-    .ericface {
-        max-width: 30%;
-    }
-}
-
-@media (max-width: 1200px) {
-    .ericface {
-        max-width: 35%;
-    }
-}
-
-@media (max-width: 600px) {
-    .ericface {
-        max-width: 50%;
-    }
-}
-
 .about-description-row {
     width: 50%;
     margin: 5.5% auto 5.5% auto;
@@ -131,4 +107,76 @@ hr {
 
 .location:visited {
     color: #077725;
+}
+
+/* Skills page exclusive styles */
+
+.skill-section {
+    width: 50%;
+    text-align: left;
+    margin: 3% auto 5.5% auto;
+}
+
+.category {
+    color: rgb(161, 161, 161);
+}
+
+/* Media Queries */
+
+@media (min-width: 1350px) {
+    .text-elem {
+        margin-left: 27%;
+    }
+}
+
+@media (max-width: 1350px) {
+    .ericface {
+        max-width: 30%;
+    }
+
+    .about-description-row {
+        width: 60%;
+    }
+
+    .skill-section {
+        width: 60%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .ericface {
+        max-width: 35%;
+    }
+
+    .about-description-row {
+        width: 65%;
+    }
+
+    .skill-section {
+        width: 65%;
+    }
+}
+
+@media (max-width: 850px) {
+    .about-description-row {
+        width: 78%;
+    }
+
+    .skill-section {
+        width: 78%;
+    }
+}
+
+@media (max-width: 600px) {
+    .ericface {
+        max-width: 50%;
+    }
+
+    .about-description-row {
+        width: 85%;
+    }
+
+    .skill-section {
+        width: 85%;
+    }
 }
