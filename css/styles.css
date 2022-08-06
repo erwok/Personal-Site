@@ -54,15 +54,7 @@ hr {
     border-radius: 50%;
     text-align: left;
     font-size: 1rem;
-    /* padding-bottom: 2%; */
 }
-
-/* .text {
-    position: relative;
-}
-.text-elem {
-    left: 0;
-} */
 
 .say-hi {
     padding-left: 25.35%;
@@ -77,20 +69,12 @@ hr {
 }
 
 .copyright {
-    /* text-align: right; */
     color: #5fa472;
     font-size: 1.25rem;
     padding: 20px 0;
-    /* margin-right: 15%; */
     display: inline-block;
     margin-left: 47.5%;
 }
-
-/* .btn {
-    border: none;
-    padding: 0;
-    padding-bottom: 0.218rem;
-} */
 
 .icon-cog {
     color: #5fa472;
@@ -120,6 +104,54 @@ hr {
 .category {
     color: rgb(161, 161, 161);
 }
+
+.list-skill {
+    margin: 5px auto;
+}
+
+.blank-line {
+    width: 100%;
+    margin: 50px;
+}
+
+.project {
+    font-size: 1.2rem;
+    font-style: italic;
+    color:rgb(117, 117, 117);
+}
+
+.date {
+    font-size: 0.8rem;
+    font-style: italic;
+    color:rgb(117, 117, 117);
+    text-align: right;
+}
+
+.indent {
+    margin-left: 10px;
+}
+
+.title-line {
+    margin-top: 14px;
+    margin-bottom: 2px;
+}
+
+.project-description {
+    margin-bottom: 0;
+}
+
+.proj-link {
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #077725;
+    text-align: right;
+}
+
+.proj-link:hover {
+    color: #034615;
+}
+
+
 
 /* Media Queries */
 
