@@ -45,7 +45,6 @@ hr {
     max-width: 22%;
     float: left;
     margin-right: 30px;
-    /* padding: 10px 0; */
 }
 
 .about-description-row {
@@ -150,6 +149,31 @@ hr {
 .proj-link:hover {
     color: #034615;
 }
+
+/* Calisthenics Page Exclusive Styles */
+
+.disclaimer {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 40%;
+}
+
+.vid-section {
+    width: 54%;
+}
+
+.vids {
+    text-align: center;
+}
+
+.cali-move {
+    margin-bottom: 0;
+}
+
+/* Photos Page Exclusive Styles */
+
+
 
 
 
