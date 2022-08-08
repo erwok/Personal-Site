@@ -173,7 +173,20 @@ hr {
 
 /* Photos Page Exclusive Styles */
 
+.photos-section {
+    text-align: center;
+    width: 77%;
+}
 
+.photo-block {
+    background-color: #dceae0;
+    width: 94%;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
 
 
 

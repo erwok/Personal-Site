@@ -31,3 +31,11 @@ $(".vid").hover(function(event) {
         $(this).removeAttr("controls");
     }
 });
+
+/* Set the height equal to the width for photos */
+
+$(document).ready(function() {
+    $(".photo-block").css({
+      'height': ($(".photo-block").width() + 'px')
+    });
+});
